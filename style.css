@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario-bootstrap {
+  max-width: 720px;
+  background-color: #0f61d9;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(15,97,217,0.12);
+}
+
+.formulario-bootstrap .form-control,
+.formulario-bootstrap .form-select {
+  background: #fff;
+  color: #111;
+  border-radius: 6px;
+}
+
+.formulario-bootstrap .form-label {
+  color: #e8f0ff;
+}
+
+@media (max-width: 576px) {
+  .formulario-bootstrap { padding: 14px; }
+}
